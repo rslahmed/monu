@@ -1,6 +1,13 @@
 $(document).ready(function(){
 // Write code here
 
+ /* preloader */
+ $(window).on('load', function(){
+  $('.spinner-section').fadeOut('slow', function(){
+  $(this).remove();
+});
+});
+
 // Mobile menu
 jQuery('#mobile-menu-active').meanmenu({
   meanMenuContainer: '.mobile-menu',
