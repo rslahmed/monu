@@ -139,7 +139,6 @@ $('.review-slider').slick({
     scrollText: '<i class="fas fa-arrow-circle-up"></i>', // Text for element
     activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
   });
-  parallaxInstance.friction(0.2, 0.2);
 
 
   // wow js
