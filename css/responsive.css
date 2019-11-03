@@ -1,0 +1,119 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  nav ul li {
+    margin-right: 20px;
+  }
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .subscribe-wrapper form input:not(submit) {
+    padding: 15px 0;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .review-wrapper {
+    padding: 0 70px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+  }
+
+  nav ul li {
+    margin-right: 15px;
+}
+
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+  .mean-container .mean-bar {
+    top: 15px;
+  }
+
+  .slider-content h1 {
+    font-size: 40px;
+  }
+
+  .slider-content p {
+    font-size: 13px;
+  }
+
+  .subscribe-wrapper form input:not(submit) {
+    padding: 15px 0;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+  .pricing-wrapper {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+  .review-slider ul.slick-dots {
+    top: 90%;
+  }
+
+  .review-wrapper {
+    padding: 0 30px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+  }
+
+  .feature-wrapper {
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+  .about-us-content {
+    margin-bottom: 20px;
+  }
+
+  .widget-wrapper h4 {
+    margin-bottom: 15px;
+  }
+
+  .footer-widget-area.pb-60 {
+    padding-bottom: 30px;
+  }
+
+  .copyright-text.text-lg-left.text-center {
+    text-align: left !important;
+  }
+
+  .section-title.text-center p {
+    padding: 0 20px;
+}
+
+.about-us-img {
+  margin-top: 25px;
+}
+
+.slider-area {
+  padding: 230px 0;
+}
+
+.header-logo {
+  margin-left: 15px;
+}
+
+.header-logo a {
+  display: inline-block;
+  position: relative;
+  z-index: 999999999;
+}
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
